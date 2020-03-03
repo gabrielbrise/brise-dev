@@ -1,0 +1,205 @@
+{
+  "aboutMe": {},
+  "curriculum": {
+    "sections": [
+      {
+        "component": "Timeline",
+        "title": "experiência",
+        "list": [
+          {
+            "date": { "start": "jun - 2019", "end": "atualmente" },
+            "title": "Desenvolvedor Júnior",
+            "subtitle": "Me Salva!",
+            "info": [""],
+            "description": [
+              "- Javascript, HTML, CSS",
+              "- ReactJS, NODE.js",
+              "- GIT"
+            ]
+          },
+          {
+            "date": { "start": "mai 2017", "end": "nov 2017" },
+            "title": "Estagiário de Arquitetura",
+            "subtitle": "roo-m arquitetura",
+            "info": ["Arquiteto responsável: Rodrigo Milani"],
+            "description": [
+              "- Modelagem 3D para representação e documentação técnica arquitetônica em BIM (ArchiCAD)",
+              "- Renderização para visualização em realidade virtual com V-Ray e Google Cardboard",
+              "- Projeto de mobiliário para corte em CNC"
+            ]
+          },
+          {
+            "date": { "start": "jun 2013", "end": "ago 2014" },
+            "title": "Pesquisador CNPq de Iniciação Científica",
+            "subtitle": "Universidade Federal do Rio Grande do Sul",
+            "info": [
+              "Projeto de Pesquisa de Avaliação Estética do Espaço Urbano",
+              "Orientador: Antônio Tarcísio da Luz Reis"
+            ],
+            "description": [
+              "- Elaboração, aplicação e análise de dados de questionários",
+              "- Análise de dados estatísticos com uso do SPSS",
+              "- Questionários elaborados na plataforma LimeSurvey"
+            ]
+          },
+          {
+            "date": { "start": "set 2012", "end": "fev 2013" },
+            "title": "Bolsista em Setor de Projetos Arquitetônicos",
+            "subtitle": "Universidade Federal do Rio Grande do Sul",
+            "info": [
+              "Superintendência de Infraestrutura da UFRGS",
+              "Campus do Vale"
+            ],
+            "description": [
+              "- Revisão de projetos de acordo com normas técnicas",
+              "- Levantamento técnico",
+              "- Desenho arquitetônico em AutoCAD"
+            ]
+          }
+        ]
+      },
+      {
+        "component": "Timeline",
+        "title": "formação",
+        "list": [
+          {
+            "date": { "start": "dez 2019", "end": "atualmente" },
+            "title": "Pós-graduação em Arquitetura de Software",
+            "subtitle": "Faculdade Unyleya"
+          },
+          {
+            "date": { "start": "2012", "end": "2018" },
+            "title": "Bacharelado em Arquitetura e Urbanismo",
+            "subtitle": "Universidade Federal do Rio Grande do Sul"
+          },
+          {
+            "date": { "start": "2014", "end": "2015" },
+            "title": "Urban Design, Planning and Society",
+            "subtitle": "Rijksuniversiteit Groningen",
+            "description": [
+              "Intercâmbio de 1 ano pelo programa do Ciências Sem Fronteiras"
+            ]
+          }
+        ]
+      },
+      {
+        "component": "SkillLevel",
+        "title": "ferramentas",
+        "list": [
+          {
+            "title": "Adobe Photoshop",
+            "level": 5
+          },
+          {
+            "title": "Sketchup",
+            "level": 5
+          },
+          {
+            "title": "ArchiCAD",
+            "level": 5
+          },
+          {
+            "title": "V-RAY",
+            "level": 5
+          },
+          {
+            "title": "AutoCAD",
+            "level": 5
+          },
+          {
+            "title": "Adobe InDesign",
+            "level": 5
+          },
+          {
+            "title": "Adobe Illustrator",
+            "level": 5
+          },
+          {
+            "title": "Adobe Premiere",
+            "level": 5
+          },
+          {
+            "title": "3DS Max",
+            "level": 5
+          },
+          {
+            "title": "Revit",
+            "level": 5
+          }
+        ]
+      },
+      {
+        "component": "SkillLevel",
+        "title": "coding",
+        "list": [
+          {
+            "title": "Python",
+            "level": 5
+          },
+          {
+            "title": "Kivy",
+            "level": 5
+          },
+          {
+            "title": "Unity3D",
+            "level": 5
+          },
+          {
+            "title": "HTML / CSS / Bootstrap",
+            "level": 5
+          },
+          {
+            "title": "C#",
+            "level": 5
+          },
+          {
+            "title": "Javascript",
+            "level": 5
+          },
+          {
+            "title": "ReactJS",
+            "level": 5
+          },
+          {
+            "title": "Typescript",
+            "level": 5
+          },
+          {
+            "title": "NodeJs",
+            "level": 5
+          },
+          {
+            "title": "Next",
+            "level": 5
+          }
+        ]
+      },
+      {
+        "component": "SkillLevel",
+        "title": "idiomas",
+        "list": [
+          {
+            "title": "Inglês",
+            "level": 5,
+            "text": "Usado diariamente durante o intercâmbio para se comunicar, incluindo entrevistas, apresentações de trabalhos e aplicação de questionários"
+          },
+          {
+            "title": "Português",
+            "level": 5,
+            "text": "Língua materna"
+          },
+          {
+            "title": "Espanhol",
+            "level": 5,
+            "text": "Leitura razoável, fala e compreende pouco"
+          },
+          {
+            "title": "Holandês",
+            "level": 5,
+            "text": "Pequeno conhecimento adquirido no dia a dia"
+          }
+        ]
+      }
+    ]
+  }
+}
