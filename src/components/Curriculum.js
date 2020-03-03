@@ -7,7 +7,7 @@ const Timeline = ({
   info = [],
   description = []
 }) => (
-  <article id="roo-m">
+  <article className="pb-3" id="roo-m">
     <div className="col-md-3 left month-year-data">
       {date.start} - {date.end}
     </div>
@@ -18,7 +18,7 @@ const Timeline = ({
         <h6>{text}</h6>
       ))}
       {description.map(text => (
-        <p>{text}</p>
+        <p className="m-0">{text}</p>
       ))}
     </div>
   </article>
@@ -27,14 +27,15 @@ const Timeline = ({
 const SkillLevel = ({ title, text, level }) => (
   <article id="dutch">
     <div className="col-md-3 left">{title}</div>
-    <div className="col-md-9 right level">
-      <label className="circle"></label>
-      <label
-        className="circle full"
-        style={{ width: `${level * 10}%` }}
-      ></label>
-    </div>
-    <span></span>
+    {level && (
+      <div className="col-md-9 right level">
+        <label className="circle"></label>
+        <label
+          className="circle full"
+          style={{ width: `${level * 10}%` }}
+        ></label>
+      </div>
+    )}
     <div className="col-md-12 right description">
       <p>{text}</p>
     </div>
@@ -50,8 +51,8 @@ const Curriculum = ({ sections }) => (
   <div id="curriculum" className="container-fluid col-md-8">
     {sections.map(({ title, component, list }) => {
       return (
-        <>
-          <h3>
+        <section className="mb-2">
+          <h3 className="mb-4">
             <span>{title}</span>
           </h3>
           <div>
@@ -60,7 +61,7 @@ const Curriculum = ({ sections }) => (
               return <TagName {...item} />;
             })}
           </div>
-        </>
+        </section>
       );
     })}
   </div>
