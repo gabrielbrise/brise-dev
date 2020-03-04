@@ -1,4 +1,5 @@
 import React from "react";
+import styled from "styled-components";
 
 const Timeline = ({
   date = {},
@@ -24,23 +25,29 @@ const Timeline = ({
   </article>
 );
 
-const SkillLevel = ({ title, text, level }) => (
-  <article id="dutch">
-    <div className="col-md-3 left">{title}</div>
-    {level && (
-      <div className="col-md-9 right level">
-        <label className="circle"></label>
-        <label
-          className="circle full"
-          style={{ width: `${level * 10}%` }}
-        ></label>
+const SkillLevel = ({ title, text, level }) => {
+  const percentageLevel = `${level * 10}%`;
+  const backgroundImage = `linear-gradient(to right, #303030 ${percentageLevel}, #b9b9b9 ${percentageLevel})`;
+  return (
+    <div>
+      <div className="col-md-3 left">{title}</div>
+      {level && (
+        <LevelBar
+          className="col-md-9 right"
+          style={{ backgroundImage }}
+        ></LevelBar>
+      )}
+      <div className="col-md-12 left ">
+        <p className="pt-2">{text}</p>
       </div>
-    )}
-    <div className="col-md-12 right description">
-      <p>{text}</p>
     </div>
-  </article>
-);
+  );
+};
+
+const LevelBar = styled.div`
+  height: 12px;
+  top: 6px;
+`;
 
 const components = {
   Timeline,
@@ -51,7 +58,7 @@ const Curriculum = ({ sections }) => (
   <div id="curriculum" className="container-fluid col-md-8">
     {sections.map(({ title, component, list }) => {
       return (
-        <section className="mb-2">
+        <div className="mb-2">
           <h3 className="mb-4">
             <span>{title}</span>
           </h3>
@@ -61,7 +68,7 @@ const Curriculum = ({ sections }) => (
               return <TagName {...item} />;
             })}
           </div>
-        </section>
+        </div>
       );
     })}
   </div>
