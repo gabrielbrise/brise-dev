@@ -1,0 +1,66 @@
+{
+  "cardBoard": {
+    "cards": [
+      {
+        "title": "Reforma WC Residencial",
+        "image": "img/arc/cncwc.png",
+        "href": "https://www.behance.net/gallery/77514639/Reforma-WC-Residencial-2019"
+      },
+      {
+        "title": "TCC - APESCA",
+        "image": "img/arc/apesca.png",
+        "href": "https://www.behance.net/gallery/77504841/TCC-APESCA-Associacao-dos-Pescadores-e-Orla-2018"
+      },
+      {
+        "title": "Casa Sah",
+        "image": "img/arc/sah.png",
+        "href": "https://www.behance.net/gallery/68903603/Casa-Sah-2018"
+      },
+      {
+        "title": "Sede ADVB-RS",
+        "image": "img/arc/advb.png",
+        "href": "https://www.behance.net/gallery/69061143/SEDE-ADVB-RS-2017"
+      },
+      {
+        "title": "Mercado Público do 4o Distrito",
+        "image": "img/arc/mercadopublico.png",
+        "href": "https://www.behance.net/gallery/51555175/Mercado-Publico-do-4-Distrito-2016"
+      },
+      {
+        "title": "Hostel 1345",
+        "image": "img/arc/hostel.png",
+        "href": "https://www.behance.net/gallery/51869925/Hostel-1345-2016"
+      },
+      {
+        "title": "1345 Pub de Cervejas e Discos",
+        "image": "img/arc/beerlp.png",
+        "href": "https://www.behance.net/gallery/51554145/1345-Pub-Cervejas-e-Discos-2016"
+      },
+      {
+        "title": "Edifício de Uso Misto Loureiro",
+        "image": "img/arc/loureiro.png",
+        "href": "https://www.behance.net/gallery/77470501/Edificio-Uso-Misto-Loureiro-2014"
+      },
+      {
+        "title": "Pavilhão Redenção",
+        "image": "img/arc/redencao.png",
+        "href": "https://www.behance.net/gallery/51556555/Pavilhao-Redencao-2013"
+      },
+      {
+        "title": "Centro Comunitário Santa Maria Goretti",
+        "image": "img/arc/goretti.png",
+        "href": "https://www.behance.net/gallery/51570569/Centro-Comunitario-Santa-Maria-Goretti-2013"
+      },
+      {
+        "title": "Casa Viegas",
+        "image": "img/arc/viegas.png",
+        "href": "https://www.behance.net/gallery/51552481/Casa-Viegas-2012"
+      },
+      {
+        "title": "Loja de Instrumentos e LPs em Shopping",
+        "image": "img/arc/guitardiscos.png",
+        "href": "https://www.behance.net/gallery/79244263/Loja-de-Instrumentos-e-LPs-em-Shopping"
+      }
+    ]
+  }
+}
