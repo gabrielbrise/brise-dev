@@ -1,7 +1,7 @@
 import NavBar from "../components/NavBar.js";
 import CardBoard from "../components/CardBoard.js";
 
-import { cardBoard } from "../data/architecture.json";
+import { cardBoard } from "../data/art.json";
 
 function HomePage() {
   return (

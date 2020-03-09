@@ -38,11 +38,6 @@ export default class MyDocument extends Document {
             type="text/css"
             href="css/bootstrap.min.css"
           ></link>
-          <link
-            rel="stylesheet"
-            type="text/css"
-            href="css/bootstrap-theme.min.css"
-          ></link>
           <link rel="stylesheet" type="text/css" href="css/style.css"></link>
           <link href="css/all.css" rel="stylesheet"></link>
           <link

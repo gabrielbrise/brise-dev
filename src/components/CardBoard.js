@@ -12,38 +12,41 @@ const CardBoard = ({ cards = [] }) => (
 export default CardBoard;
 
 const Card = ({ title, href, image }) => (
-  <CardStyled>
-    <a href={href} target="_blank">
-      <img src={image} alt="" height="200px" width="200px" />
-    </a>
+  <CardStyled href={href} target="_blank">
+    <div
+      className="Image"
+      style={{ backgroundImage: `url(${image})` }}
+      alt={title}
+    />
     <div class="card-title">
       <h4>{title}</h4>
     </div>
   </CardStyled>
 );
 
-const CardStyled = styled.div`
+const CardStyled = styled.a`
   position: relative;
   flex-shrink: 1;
-  max-width: 300px;
-  min-width: 300px;
+  max-width: 320px;
+  min-width: 320px;
   display: flex;
   justify-content: center;
+
   :hover {
     .card-title {
       opacity: 1;
       transition: opacity 0.5s;
     }
   }
-  a img {
-    justify-content: center;
-  }
-  a {
-    display: flex;
-    justify-content: center;
+  .Image {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 200px;
   }
   .card-title {
-    opacity: 0;
+    opacity: 1;
     position: absolute;
     pointer-events: none;
     width: 100%;
@@ -62,6 +65,9 @@ const CardStyled = styled.div`
       bottom: 5px;
       color: #fff;
       width: 100%;
+    }
+    @media (min-width: 960px) {
+      opacity: 0;
     }
   }
 `;

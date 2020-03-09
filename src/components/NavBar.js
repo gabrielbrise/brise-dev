@@ -2,7 +2,7 @@ import React from "react";
 
 const NavBar = () => (
   <nav className="navbar navbar-light bg-light navbar-expand-lg fixed-top">
-    <a className="navbar-brand" href="/index.html">
+    <a className="navbar-brand" href="/index">
       <img
         src="img/logo.png"
         height="50"
@@ -27,17 +27,17 @@ const NavBar = () => (
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item active zoom-in">
-          <a className="nav-link" href="/index.html">
+          <a className="nav-link" href="/index">
             sobre mim <span className="sr-only">(current)</span>
           </a>
         </li>
         <li className="nav-item zoom-in">
-          <a className="nav-link" href="/architecture.html">
+          <a className="nav-link" href="/architecture">
             arquitetura e urbanismo
           </a>
         </li>
         <li className="nav-item zoom-in">
-          <a className="nav-link" href="/art.html">
+          <a className="nav-link" href="/art">
             arte gráfica
           </a>
         </li>
