@@ -1,4 +1,4 @@
-import React, { useEffect, useState, PureComponent } from "react";
+import React, { PureComponent } from "react";
 import classNames from "classnames";
 
 const navLinks = [
