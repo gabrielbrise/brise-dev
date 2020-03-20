@@ -33,8 +33,11 @@ const CardStyled = styled.a`
   justify-content: center;
 
   :hover {
+    filter: grayscale(100%);
+
     .card-title {
-      opacity: 1;
+      opacity: 0.5;
+      border-radius: 4px;
       transition: opacity 0.5s;
     }
   }
@@ -46,18 +49,12 @@ const CardStyled = styled.a`
     height: 200px;
   }
   .card-title {
-    opacity: 1;
+    opacity: 0.5;
     position: absolute;
     pointer-events: none;
     width: 100%;
     height: 100%;
-    background: linear-gradient(
-      to top,
-      #202020,
-      transparent 25%,
-      transparent 100%,
-      transparent 100%
-    );
+    background: #333;
     h4 {
       position: absolute;
       text-align: center;
