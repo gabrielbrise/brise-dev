@@ -41,7 +41,7 @@ const SkillLevel = ({ title, text, level }) => {
         ></LevelBar>
       )}
       <div className="col-md-12 left ">
-        <p className="pt-2">{text}</p>
+        <p className="pt-2 text-secondary">{text}</p>
       </div>
     </div>
   );
