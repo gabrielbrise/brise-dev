@@ -1,17 +1,13 @@
 import NavBar from "../components/NavBar.js";
 import GameSection from "../components/GameSection.js";
+import Footer from "../components/Footer.js";
 
 function HomePage() {
   return (
     <>
-      <header>
-        <NavBar />
-      </header>
+      <NavBar />
       <GameSection />
-
-      <footer className="fixed-bottom webfix">
-        <div>Criado por Brise</div>
-      </footer>
+      <Footer />
     </>
   );
 }
