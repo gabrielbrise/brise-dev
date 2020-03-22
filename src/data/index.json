@@ -1,80 +1,81 @@
 {
-  "aboutMe": {},
+  "aboutMe": {
+    "title": "Hello! You can call me BRISE!",
+    "text": "<br>Fullstack Javascript Web Developer (Node.js, MongoDB, ReactJS). Also, former architect and urban planner graduated at the Federal University of Rio Grande do Sul (UFRGS).<br><br>Studying Post-Graduation in Software Architecture at Unyleya Faculty (2019 - now). Actively working to improve knowledge at web tecnologies in order to be prepared for the job market in the future.<br><br>As a developer, strives for code quality through concepts such as dry code, less code / better code and human readable code. At the front-end: functionality and aesthetics are also much valued.<br><br>For those curious about the nickname. I received it after my first presentation at the architecture faculty. My subject was 'brises' which are architectural elements for solar protection."
+  },
   "curriculum": {
     "sections": [
       {
         "component": "Timeline",
-        "title": "experiência",
+        "title": "work experience",
         "list": [
           {
-            "date": { "start": "jun 2019", "end": "atualmente" },
-            "title": "Desenvolvedor Júnior",
+            "date": { "start": "jun 2019", "end": "now" },
+            "title": "Junior Developer",
             "id": "mesalva",
             "subtitle": "Me Salva!",
             "info": [""],
             "description": [
               "- Javascript, HTML, CSS",
+              "- Typescript",
               "- ReactJS, NODE.js",
               "- GIT"
             ]
           },
           {
-            "date": { "start": "mai 2017", "end": "nov 2017" },
-            "title": "Estagiário de Arquitetura",
+            "date": { "start": "may 2017", "end": "nov 2017" },
+            "title": "Architecture Internship",
             "id": "room",
             "subtitle": "roo-m arquitetura",
-            "info": ["Arquiteto responsável: Rodrigo Milani"],
+            "info": ["Responsable Architect: Rodrigo Milani"],
             "description": [
-              "- Modelagem 3D para representação e documentação técnica arquitetônica em BIM (ArchiCAD)",
-              "- Renderização para visualização em realidade virtual com V-Ray e Google Cardboard",
-              "- Projeto de mobiliário para corte em CNC"
+              "- CNC furniture plans",
+              "- Architectural visualization with V-Ray for virtual reality (Google Cardboard / VR BOX)",
+              "- BIM Architectural modelling (ArchiCAD)"
             ]
           },
           {
-            "date": { "start": "jun 2013", "end": "ago 2014" },
-            "title": "Pesquisador CNPq de Iniciação Científica",
+            "date": { "start": "jun 2013", "end": "aug 2014" },
+            "title": "Scholarship for Cientific Research",
             "id": "cnpq",
             "subtitle": "Universidade Federal do Rio Grande do Sul",
             "info": [
-              "Projeto de Pesquisa de Avaliação Estética do Espaço Urbano",
-              "Orientador: Antônio Tarcísio da Luz Reis"
+              "Research Project for Aesthetic Evaluation of Urban Spaces",
+              "Advisor: Antônio Tarcísio da Luz Reis"
             ],
             "description": [
-              "- Elaboração, aplicação e análise de dados de questionários",
-              "- Análise de dados estatísticos com uso do SPSS",
-              "- Questionários elaborados na plataforma LimeSurvey"
+              "- Preparation, applying and analyzing survey questionnaires",
+              "- Statistical data analysis with SPSS",
+              "- LimeSurvey questionnaires"
             ]
           },
           {
-            "date": { "start": "set 2012", "end": "fev 2013" },
+            "date": { "start": "sep 2012", "end": "feb 2013" },
             "id": "suinfra",
-            "title": "Bolsista em Setor de Projetos Arquitetônicos",
+            "title": "Scholarship at the Architectural Projects Division",
             "subtitle": "Universidade Federal do Rio Grande do Sul",
-            "info": [
-              "Superintendência de Infraestrutura da UFRGS",
-              "Campus do Vale"
-            ],
+            "info": ["Infrastructure Superintendence", "Campus do Vale"],
             "description": [
-              "- Revisão de projetos de acordo com normas técnicas",
-              "- Levantamento técnico",
-              "- Desenho arquitetônico em AutoCAD"
+              "- Design review according to technical standards",
+              "- Technical survey",
+              "- AutoCAD drawing"
             ]
           }
         ]
       },
       {
         "component": "Timeline",
-        "title": "formação",
+        "title": "education",
         "list": [
           {
             "date": { "start": "dez 2019", "end": "atualmente" },
-            "title": "Pós-graduação em Arquitetura de Software",
+            "title": "Software Architecture Post-Graduation",
             "id": "unyleya",
-            "subtitle": "Faculdade Unyleya"
+            "subtitle": "Unyleya Faculty"
           },
           {
             "date": { "start": "2012", "end": "2018" },
-            "title": "Bacharelado em Arquitetura e Urbanismo",
+            "title": "Architecture and Urbanism Bachelor",
             "id": "ufrgs",
             "subtitle": "Universidade Federal do Rio Grande do Sul"
           },
@@ -83,35 +84,84 @@
             "title": "Urban Design, Planning and Society",
             "id": "groningen",
             "subtitle": "Rijksuniversiteit Groningen",
-            "description": [
-              "Intercâmbio de 1 ano pelo programa do Ciências Sem Fronteiras"
-            ]
+            "description": ["Science Without Borders 1 year exchange programme"]
           }
         ]
       },
       {
         "component": "SkillLevel",
-        "title": "ferramentas",
+        "title": "coding",
+        "list": [
+          {
+            "title": "ReactJS",
+            "level": 8,
+            "text": "Lifecycles, class and functional components, hooks, states"
+          },
+          {
+            "title": "HTML / CSS",
+            "level": 8,
+            "text": "Flex Box, Grid"
+          },
+          {
+            "title": "Javascript / Typescript",
+            "level": 7,
+            "text": "ECMAScript 5"
+          },
+          {
+            "title": "Node.js",
+            "level": 6,
+            "text": "REST APIs, automation scripts, logging"
+          },
+          {
+            "title": "Next.js",
+            "level": 6,
+            "text": "Clean and organized structure for ReactJS apps"
+          },
+          {
+            "title": "AWS",
+            "level": 5,
+            "text": "EC2, Route 53, Elastic Beanstalk, Code Pipeline, Cloudfront, S3"
+          },
+          {
+            "title": "Python",
+            "level": 5,
+            "text": "tkinter, kivy (multiplatform, including mobile GUI)"
+          },
+          {
+            "title": "Unity3D",
+            "level": 4,
+            "text": "2D simple games"
+          },
+          {
+            "title": "C#",
+            "level": 3,
+            "text": ".NET"
+          }
+        ]
+      },
+      {
+        "component": "SkillLevel",
+        "title": "software",
         "list": [
           {
             "title": "Adobe Photoshop",
-            "level": 5
+            "level": 9
           },
           {
             "title": "Sketchup",
-            "level": 5
+            "level": 9
           },
           {
             "title": "ArchiCAD",
-            "level": 5
+            "level": 8
           },
           {
             "title": "V-RAY",
-            "level": 5
+            "level": 7
           },
           {
             "title": "AutoCAD",
-            "level": 5
+            "level": 6
           },
           {
             "title": "Adobe InDesign",
@@ -123,87 +173,40 @@
           },
           {
             "title": "Adobe Premiere",
-            "level": 5
+            "level": 4
           },
           {
             "title": "3DS Max",
-            "level": 5
+            "level": 4
           },
           {
             "title": "Revit",
-            "level": 5
+            "level": 3
           }
         ]
       },
       {
         "component": "SkillLevel",
-        "title": "coding",
+        "title": "languages",
         "list": [
-          {
-            "title": "Python",
-            "level": 5
-          },
-          {
-            "title": "Kivy",
-            "level": 5
-          },
-          {
-            "title": "Unity3D",
-            "level": 5
-          },
-          {
-            "title": "HTML / CSS",
-            "level": 5
-          },
-          {
-            "title": "C#",
-            "level": 5
-          },
-          {
-            "title": "Javascript",
-            "level": 5
-          },
-          {
-            "title": "ReactJS",
-            "level": 5
-          },
-          {
-            "title": "Typescript",
-            "level": 5
-          },
-          {
-            "title": "NodeJs",
-            "level": 5
-          },
-          {
-            "title": "Next",
-            "level": 5
-          }
-        ]
-      },
-      {
-        "component": "SkillLevel",
-        "title": "idiomas",
-        "list": [
-          {
-            "title": "Inglês",
-            "level": 5,
-            "text": "Usado diariamente durante o intercâmbio para se comunicar, incluindo entrevistas, apresentações de trabalhos e aplicação de questionários"
-          },
           {
             "title": "Português",
-            "level": 5,
-            "text": "Língua materna"
+            "level": 10,
+            "text": "Native language"
+          },
+          {
+            "title": "English",
+            "level": 9,
+            "text": "Used on a everyday basis during the exchange program to communicate, including interviews, presentations and questionnaires application"
           },
           {
             "title": "Espanhol",
-            "level": 5,
-            "text": "Leitura razoável, fala e compreende pouco"
+            "level": 4
           },
           {
             "title": "Holandês",
-            "level": 5,
-            "text": "Pequeno conhecimento adquirido no dia a dia"
+            "level": 1,
+            "text": "Small everyday knowledge"
           }
         ]
       }
