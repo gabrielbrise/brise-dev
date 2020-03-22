@@ -3,23 +3,26 @@ import styled from "styled-components";
 
 const Timeline = ({
   date = {},
+  id,
   title,
   subtitle,
   info = [],
   description = []
 }) => (
-  <article className="pb-3" id="roo-m">
+  <article className="pb-3" id={id}>
     <div className="col-md-3 left month-year-data">
       {date.start} - {date.end}
     </div>
     <div className="col-md-9 right description">
       <h4>{title}</h4>
       <h5>{subtitle}</h5>
-      {info.map(text => (
-        <h6>{text}</h6>
+      {info.map((text, key) => (
+        <h6 key={`${id}-info-${key}`}>{text}</h6>
       ))}
-      {description.map(text => (
-        <p className="m-0">{text}</p>
+      {description.map((text, key) => (
+        <p className="m-0" key={`${id}-description-${key}`}>
+          {text}
+        </p>
       ))}
     </div>
   </article>
@@ -56,16 +59,16 @@ const components = {
 
 const Curriculum = ({ sections }) => (
   <div id="curriculum" className="container-fluid col-md-8">
-    {sections.map(({ title, component, list }) => {
+    {sections.map(({ title, component, list }, key) => {
       return (
-        <div className="mb-2">
+        <div className="mb-2" key={`section-${key}`}>
           <h3 className="mb-4">
             <span>{title}</span>
           </h3>
           <div>
-            {list.map(item => {
+            {list.map((item, key) => {
               const TagName = components[component];
-              return <TagName {...item} />;
+              return <TagName {...item} key={`section-component-${key}`} />;
             })}
           </div>
         </div>

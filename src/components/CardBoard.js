@@ -3,8 +3,8 @@ import styled from "styled-components";
 
 const CardBoard = ({ cards = [] }) => (
   <Container>
-    {cards.map(card => (
-      <Card {...card} />
+    {cards.map((card, key) => (
+      <Card {...card} key={`card-${key}`} />
     ))}
   </Container>
 );
@@ -18,7 +18,7 @@ const Card = ({ title, href, image }) => (
       style={{ backgroundImage: `url(${image})` }}
       alt={title}
     />
-    <div class="card-title">
+    <div className="card-title">
       <h4>{title}</h4>
     </div>
   </CardStyled>
@@ -31,6 +31,7 @@ const CardStyled = styled.a`
   min-width: 320px;
   display: flex;
   justify-content: center;
+  max-height: 210px;
 
   :hover {
     filter: grayscale(100%);
@@ -70,6 +71,9 @@ const CardStyled = styled.a`
 `;
 
 const Container = styled.section`
+  padding: 12px calc(50vw - 600px);
+  vertical-align: middle;
+  height: calc(100vh - 110px);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

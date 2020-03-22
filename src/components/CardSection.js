@@ -3,11 +3,11 @@ import styled from "styled-components";
 import classNames from "classnames";
 
 const CardSection = ({ sections }) => (
-  <div>
+  <>
     {sections.map((section, index) => (
       <Section {...section} key={`section-${index}`} />
     ))}
-  </div>
+  </>
 );
 
 export default CardSection;
@@ -25,7 +25,7 @@ const Section = ({
 }) => (
   <SectionStyled
     className="container-fluid game game-container flex-wrap"
-    style={{ ...theme }}
+    style={{ backgroundColor: theme.backgroundColor }}
   >
     <div className="col-sm-12 col-md-6 intro">
       <div
@@ -115,18 +115,14 @@ const SectionStyled = styled.section`
 `;
 
 const CarouselCard = ({ image, alt, index }) => (
-  <CarouselCardStyled
-    className={isActive(index, "carousel-item")}
-    style={{
-      maxHeight: 600,
-      margin: "auto"
-    }}
-  >
+  <CarouselCardStyled className={isActive(index, "carousel-item")}>
     <a href={image} style={{ backgroundImage: `url(${image})` }} alt={alt}></a>
   </CarouselCardStyled>
 );
 
 const CarouselCardStyled = styled.div`
+  max-height: 600px;
+  margin: auto;
   a {
     display: block;
     width: 30vw;

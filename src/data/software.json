@@ -2,6 +2,58 @@
   "cardSection": {
     "sections": [
       {
+        "title": "FRACTREE",
+        "id": "fractree",
+        "text": "<br /><p> A interface está sendo desenvolvida através do TKINTER, biblioteca padrão para 'GUI' do Python.</p><p> A composição leva em conta a área de 'chão' onde surgem as árvores geradas de forma paramétrica. Ao centro está o botão para rodar o código principal que constrói as formas. Ao lado esquerdo as propriedades que coordenam o seu crescimento.</p><p>Ainda em desenvolvimento, ao lado direito estarão as configurações do programa como: salvar/carregar conjunto de parâmetros como uma espécie de árvore, gerar arquivo SVG, entre outros.</p><p>Os ícones estão sendo desenhados como vetores usando proporções áureas.</p>",
+        "theme": {
+          "backgroundColor": "",
+          "color": ""
+        },
+        "links": [
+          {
+            "text": "saiba mais aqui",
+            "href": "https://www.behance.net/gallery/79024121/Gerador-de-Arvores-em-Python"
+          }
+        ],
+        "carousel": [
+          {
+            "image": "img/ui-ux/fractree1.png"
+          },
+          {
+            "image": "img/ui-ux/fractree2.png"
+          },
+          {
+            "image": "img/ui-ux/fractree3.png"
+          }
+        ]
+      },
+      {
+        "title": "DOOMFIRE",
+        "id": "doomfire",
+        "text": "<br /><p> A interface está sendo desenvolvida através do TKINTER, biblioteca padrão para 'GUI' do Python.</p><p> A composição leva em conta a área de 'chão' onde surgem as árvores geradas de forma paramétrica. Ao centro está o botão para rodar o código principal que constrói as formas. Ao lado esquerdo as propriedades que coordenam o seu crescimento.</p><p>Ainda em desenvolvimento, ao lado direito estarão as configurações do programa como: salvar/carregar conjunto de parâmetros como uma espécie de árvore, gerar arquivo SVG, entre outros.</p><p>Os ícones estão sendo desenhados como vetores usando proporções áureas.</p>",
+        "theme": {
+          "backgroundColor": "#070707",
+          "color": ""
+        },
+        "links": [
+          {
+            "text": "saiba mais aqui",
+            "href": "https://www.behance.net/gallery/79024121/Gerador-de-Arvores-em-Python"
+          }
+        ],
+        "carousel": [
+          {
+            "image": "img/software/doomfire1.png"
+          },
+          {
+            "image": "img/software/doomfire2.png"
+          },
+          {
+            "image": "img/software/doomfire3.png"
+          }
+        ]
+      },
+      {
         "title": "GEDbot",
         "id": "gedbot",
         "text": "<br /><p> A interface está sendo desenvolvida através do TKINTER, biblioteca padrão para 'GUI' do Python.</p><p> A composição leva em conta a área de 'chão' onde surgem as árvores geradas de forma paramétrica. Ao centro está o botão para rodar o código principal que constrói as formas. Ao lado esquerdo as propriedades que coordenam o seu crescimento.</p><p>Ainda em desenvolvimento, ao lado direito estarão as configurações do programa como: salvar/carregar conjunto de parâmetros como uma espécie de árvore, gerar arquivo SVG, entre outros.</p><p>Os ícones estão sendo desenhados como vetores usando proporções áureas.</p>",
@@ -35,6 +87,7 @@
           }
         ]
       },
+
       {
         "title": "POMODO-IT",
         "id": "pomodoit",

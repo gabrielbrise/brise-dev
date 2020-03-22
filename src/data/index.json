@@ -9,6 +9,7 @@
           {
             "date": { "start": "jun 2019", "end": "atualmente" },
             "title": "Desenvolvedor Júnior",
+            "id": "mesalva",
             "subtitle": "Me Salva!",
             "info": [""],
             "description": [
@@ -20,6 +21,7 @@
           {
             "date": { "start": "mai 2017", "end": "nov 2017" },
             "title": "Estagiário de Arquitetura",
+            "id": "room",
             "subtitle": "roo-m arquitetura",
             "info": ["Arquiteto responsável: Rodrigo Milani"],
             "description": [
@@ -31,6 +33,7 @@
           {
             "date": { "start": "jun 2013", "end": "ago 2014" },
             "title": "Pesquisador CNPq de Iniciação Científica",
+            "id": "cnpq",
             "subtitle": "Universidade Federal do Rio Grande do Sul",
             "info": [
               "Projeto de Pesquisa de Avaliação Estética do Espaço Urbano",
@@ -44,6 +47,7 @@
           },
           {
             "date": { "start": "set 2012", "end": "fev 2013" },
+            "id": "suinfra",
             "title": "Bolsista em Setor de Projetos Arquitetônicos",
             "subtitle": "Universidade Federal do Rio Grande do Sul",
             "info": [
@@ -65,16 +69,19 @@
           {
             "date": { "start": "dez 2019", "end": "atualmente" },
             "title": "Pós-graduação em Arquitetura de Software",
+            "id": "unyleya",
             "subtitle": "Faculdade Unyleya"
           },
           {
             "date": { "start": "2012", "end": "2018" },
             "title": "Bacharelado em Arquitetura e Urbanismo",
+            "id": "ufrgs",
             "subtitle": "Universidade Federal do Rio Grande do Sul"
           },
           {
             "date": { "start": "2014", "end": "2015" },
             "title": "Urban Design, Planning and Society",
+            "id": "groningen",
             "subtitle": "Rijksuniversiteit Groningen",
             "description": [
               "Intercâmbio de 1 ano pelo programa do Ciências Sem Fronteiras"
