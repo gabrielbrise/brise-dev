@@ -1,43 +1,22 @@
-import React, { useEffect } from "react";
+import React from "react";
 import styled from "styled-components";
 
-const AboutMe = () => {
+const AboutMe = ({ title, text }) => {
   return (
     <Container className="container-fluid nav-margin">
       <div className="row me_body">
         <div className="row bio-intro">
           <div className="about-me col-md-8 col-lg-9 col-sm-12 d-flex align-items-center">
             <div className="jumbotron about-me align-middle">
-              <h1 className="display-4 hi FadeIn">
-                Olá! Você pode me chamar de BRISE!
-              </h1>
-              <br />
-
+              <h1 className="display-4 hi FadeIn">{title}</h1>
               <p
                 className="lead FadeIn"
                 text-align="center"
                 style={{ padding: "0 10% 0 10%" }}
-              >
-                Me chamo Gabriel, tenho 25 anos, sou recém formado em
-                Arquitetura e Urbanismo pela UFRGS e estou interessado em
-                explorar áreas da tecnologia onde meus conhecimentos adquiridos
-                ao longo da faculdade possam ser aplicados.
-                <br />
-                <br />
-                Ganhei o apelido Brise devido ao primeiro trabalho que
-                apresentei na faculdade, onde expliquei o que são os brises
-                (elementos arquitetônicos para proteção solar).
-                <br />
-                <br />
-                Atualmente estou fazendo cursos ligados à programação (HTML/CSS,
-                python/kivy, C#/Unity e Javascript/React) e gostaria de
-                encontrar um ambiente de trabalho para colaborar aplicando o que
-                aprendo. Tenho facilidade em resolução de problemas e isso me
-                permite aprender novas ferramentas rapidamente.
-                <br /> <br />
-                Espero que goste dessa página que fiz para exemplificar algumas
-                de minhas habilidades!
-              </p>
+                dangerouslySetInnerHTML={{
+                  __html: text
+                }}
+              />
             </div>
           </div>
 
@@ -79,5 +58,17 @@ const Container = styled.section`
     animation-duration: 3s;
     animation-name: fadein;
     animation-iteration-count: 1;
+  }
+  .about-me {
+    background-color: #e5e4ea;
+    align-content: center;
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 0;
+    font-size: 100%;
+  }
+
+  .me-body {
+    background-color: #e5e4ea;
   }
 `;

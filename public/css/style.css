@@ -59,19 +59,6 @@ i {
   padding-right: 10px;
 }
 
-.about-me {
-  background-color: #e5e4ea;
-  align-content: center;
-  text-align: center;
-  padding: 25px;
-  margin-bottom: 0;
-  font-size: 100%;
-}
-
-.me-body {
-  background-color: #e5e4ea;
-}
-
 .intro {
   opacity: 0;
 }
@@ -276,10 +263,6 @@ article p {
 
 .bg-gray {
   background-color: #bdbdbd;
-}
-
-.pomodoit-text {
-  color: rgb(245, 101, 101);
 }
 
 .portrait-padding {
