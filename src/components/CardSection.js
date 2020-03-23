@@ -90,7 +90,7 @@ const Section = ({
     </div>
 
     <div
-      className="game-text col-md-6 col-sm-12 fadein "
+      className="game-text col-md-6 col-sm-12 FadeIn "
       style={{ color: theme.color }}
     >
       <h1 className="text-center">{title}</h1>
@@ -113,6 +113,19 @@ const Section = ({
 const SectionStyled = styled.section`
   @media (min-width: 960px) {
     min-height: 700px;
+  }
+  .FadeIn {
+    @keyframes fadein {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    animation-duration: 3s;
+    animation-name: fadein;
+    animation-iteration-count: 1;
   }
 `;
 
