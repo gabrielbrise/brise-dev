@@ -9,7 +9,7 @@ const Timeline = ({
   info = [],
   description = []
 }) => (
-  <article className="pb-3" id={id}>
+  <article className="py-3" id={id}>
     <div className="col-md-3 left month-year-data">
       {date.start} - {date.end}
     </div>
@@ -61,8 +61,8 @@ const Curriculum = ({ sections }) => (
   <div id="curriculum" className="container-fluid col-md-8">
     {sections.map(({ title, component, list }, key) => {
       return (
-        <div className="mb-2" key={`section-${key}`}>
-          <h3 className="mb-4">
+        <section className="py-2" key={`section-${key}`}>
+          <h3 className="mb-5">
             <span>{title}</span>
           </h3>
           <div>
@@ -71,7 +71,7 @@ const Curriculum = ({ sections }) => (
               return <TagName {...item} key={`section-component-${key}`} />;
             })}
           </div>
-        </div>
+        </section>
       );
     })}
   </div>
