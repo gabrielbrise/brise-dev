@@ -27,7 +27,7 @@ const Section = ({
     className="container-fluid game game-container flex-wrap"
     style={{ backgroundColor: theme.backgroundColor }}
   >
-    <div className="col-sm-12 col-md-6 intro">
+    <div className="col-sm-12 col-md-6 FadeIn">
       <div
         id={id}
         className="carousel slide"
