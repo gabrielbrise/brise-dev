@@ -10,23 +10,30 @@ const GameSection = () => (
     </div>
 
     <div className="right game-text col-md-5 align-middle">
-      <h1 className="text-center">Space Void</h1>
+      <h1 className="text-center">SPACE VOID</h1>
       <br />
       <p>
-        Um simples jogo "breakout-style" que foi desenvolvido como parte do
-        curso de Unity e C# da GameDev.TV.
+        A simple breakout-style game developed as an exercise from the Unity 2D
+        and C# course from GameDev.TV.
       </p>
       <p>
-        Após concluir o exercício, como forma de fixar o conhecimento foram
-        desenvolvidas algumas funcionalidades extras, como o sistema de "drops"
-        e a tela inicial com o efeito de chuva 2D cujo código pode ser conferido{" "}
-        <a
-          className="text-light"
-          href="https://github.com/gabrielbrise/unity-rain-2D"
-        >
-          <u>aqui em seu repositório no Github</u>
+        After finishing the project, as a personal challenge to learn more
+        about, new functionalities were developed such as: drop system with
+        buff/debuff items; start game screen with 2D rain inspired in a{" "}
+        <a href="https://youtu.be/KkyIDI6rQJI" target="_blank">
+          Coding Train video
         </a>
         .
+        <br />
+        <br />
+        <h4 className="text-center">
+          <a
+            href="https://github.com/gabrielbrise/unity-rain-2D"
+            target="_blank"
+          >
+            2D rain github code repository
+          </a>
+        </h4>
       </p>
       <br />
       <br />
