@@ -5,7 +5,6 @@ module.exports = {
       "/software": { page: "/software" },
       "/architecture": { page: "/architecture" },
       "/art": { page: "/art" },
-      "/ui-ux": { page: "/ui-ux" },
       "/game": { page: "/game" }
     };
   }
