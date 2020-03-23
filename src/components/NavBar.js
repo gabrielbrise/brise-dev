@@ -1,6 +1,7 @@
 import React, { PureComponent } from "react";
 import classNames from "classnames";
 import styled from "styled-components";
+import Link from "next/link";
 
 const navLinks = [
   {
@@ -39,16 +40,17 @@ export default class NavBar extends PureComponent {
   render = () => (
     <Container>
       <nav className="navbar navbar-light bg-light navbar-expand-lg fixed-top">
-        <a className="navbar-brand" href="/">
-          <img
-            src="img/logo.png"
-            height="50"
-            className="d-inline-block align-middle"
-            alt=""
-          />
-          <div className="logo_text align-middle">BRISE</div>
-        </a>
-
+        <Link href="/">
+          <a className="navbar-brand">
+            <img
+              src="img/logo.png"
+              height="50"
+              className="d-inline-block align-middle"
+              alt=""
+            />
+            <div className="logo_text align-middle">BRISE</div>
+          </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -70,12 +72,14 @@ export default class NavBar extends PureComponent {
                 })}
                 key={`nav-link-${key}`}
               >
-                <a className="nav-link" href={href}>
-                  {text}
-                  {this.state.active === href && (
-                    <span className="sr-only">(current)</span>
-                  )}
-                </a>
+                <Link href={href}>
+                  <a className="nav-link">
+                    {text}
+                    {this.state.active === href && (
+                      <span className="sr-only">(current)</span>
+                    )}
+                  </a>
+                </Link>
               </li>
             ))}
           </ul>
