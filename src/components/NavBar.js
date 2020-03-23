@@ -21,10 +21,6 @@ const navLinks = [
     href: "/art"
   },
   {
-    text: "UI / UX",
-    href: "/ui-ux"
-  },
-  {
     text: "game dev",
     href: "/game"
   }
