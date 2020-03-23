@@ -99,9 +99,11 @@ const Section = ({
           __html: text
         }}
       ></div>
-      {links.map(({ text, href }, index) => (
+      {links.map(({ text, href, target }, index) => (
         <h4 className="text-center" key={`link-${id}-${index}`}>
-          <a href={href}>{text}</a>
+          <a href={href} target={target}>
+            {text}
+          </a>
         </h4>
       ))}
     </div>
