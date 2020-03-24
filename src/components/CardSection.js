@@ -111,6 +111,26 @@ const Section = ({
 );
 
 const SectionStyled = styled.section`
+  .carousel {
+    padding: 0;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    position: unset;
+    align-content: unset;
+    .carousel-inner {
+      a {
+        width: unset;
+      }
+    }
+    .carousel-indicators {
+      bottom: -5px;
+    }
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+      filter: contrast(0);
+    }
+  }
+
   @media (min-width: 960px) {
     min-height: 700px;
   }
