@@ -4,15 +4,6 @@
   font-family: CaviarDreams, Helvetica, sans-serif, Arial;
 }
 
-footer {
-  clear: both;
-  background-color: rgb(66, 66, 66);
-  height: 35px;
-  text-align: center;
-  padding: 5px 0px 10px 0px;
-  color: white;
-}
-
 .logo {
   font-size: 50px;
 }
