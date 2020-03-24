@@ -1,12 +1,10 @@
 import React from "react";
+import styled from "styled-components";
 
 const GameSection = () => (
-  <div className="container-fluid game-container nav-margin game flex-wrap">
-    <div className="col-md-6 ">
-      <iframe
-        src="https://c.simmer.io/static/unityFrame/index.html?url=https%3A%2F%2Fsimmercdn.com%2Funity%2Fnlt4oErCtgSMi0UWUsmNuQS0aMV2%2Fcontent%2F87147999-c95a-bc59-5cf2-cdeb761e1a2a&imagePath=screens/9.png"
-        style={{ width: 720, height: 540, border: 0 }}
-      ></iframe>
+  <Container className="container-fluid game-container nav-margin game flex-wrap">
+    <div className="col-md-6 text-center">
+      <iframe src="https://c.simmer.io/static/unityFrame/index.html?url=https%3A%2F%2Fsimmercdn.com%2Funity%2Fnlt4oErCtgSMi0UWUsmNuQS0aMV2%2Fcontent%2F87147999-c95a-bc59-5cf2-cdeb761e1a2a&amp;imagePath=screens/9.png"></iframe>
     </div>
 
     <div className="right game-text col-md-5 align-middle">
@@ -39,7 +37,22 @@ const GameSection = () => (
       <br />
       <br />
     </div>
-  </div>
+  </Container>
 );
+
+const Container = styled.section`
+  iframe {
+    border: 0;
+    margin: auto;
+    width: 90vmin;
+    height: 67.5vmin;
+  }
+  @media (min-width: 960px) {
+    iframe {
+      width: 720px;
+      height: 540px;
+    }
+  }
+`;
 
 export default GameSection;
