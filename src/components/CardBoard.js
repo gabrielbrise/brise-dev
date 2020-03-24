@@ -35,11 +35,10 @@ const CardStyled = styled.a`
 
   :hover {
     filter: grayscale(100%);
-
     .card-title {
-      opacity: 0.5;
+      opacity: 1;
+      background: rgba(0, 0, 0, 0.3);
       border-radius: 4px;
-      transition: opacity 0.5s;
     }
   }
   .Image {
@@ -50,22 +49,25 @@ const CardStyled = styled.a`
     height: 200px;
   }
   .card-title {
-    opacity: 0.5;
     position: absolute;
     pointer-events: none;
     width: 100%;
     height: 100%;
-    background: #333;
+    transition: all 0.2s ease;
+
     h4 {
       position: absolute;
       text-align: center;
       padding: 0 5px 0 5px;
       bottom: 5px;
-      color: #fff;
+      color: #333;
       width: 100%;
     }
     @media (min-width: 960px) {
       opacity: 0;
+      h4 {
+        color: white;
+      }
     }
   }
 `;
