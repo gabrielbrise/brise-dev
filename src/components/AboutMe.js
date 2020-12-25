@@ -7,14 +7,13 @@ const AboutMe = ({ title, text }) => {
       <div className="row me_body">
         <div className="row bio-intro">
           <div className="about-me col-md-8 col-lg-9 col-sm-12 d-flex align-items-center">
-            <div className="jumbotron about-me align-middle">
+            <div className="jumbotron about-me align-middle ">
               <h1 className="display-4 hi FadeIn">{title}</h1>
               <p
                 className="lead FadeIn"
                 text-align="center"
-                style={{ padding: "0 10% 0 10%" }}
                 dangerouslySetInnerHTML={{
-                  __html: text
+                  __html: text,
                 }}
               />
             </div>
@@ -65,7 +64,12 @@ const Container = styled.section`
     text-align: center;
     padding: 25px;
     margin-bottom: 0;
-    font-size: 100%;
+    font-size: 1em;
+    margin: auto;
+    p {
+      font-size: 1em;
+      max-width: 800px;
+    }
   }
 
   .me-body {

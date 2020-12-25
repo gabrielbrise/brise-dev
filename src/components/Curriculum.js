@@ -7,7 +7,7 @@ const Timeline = ({
   title,
   subtitle,
   info = [],
-  description = []
+  description = [],
 }) => (
   <article className="py-3" id={id}>
     <div className="col-md-3 left month-year-data">
@@ -15,7 +15,7 @@ const Timeline = ({
     </div>
     <div className="col-md-9 right description">
       <h4>{title}</h4>
-      <h5>{subtitle}</h5>
+      <h5 className="pb-2">{subtitle}</h5>
       {info.map((text, key) => (
         <h6 key={`${id}-info-${key}`}>{text}</h6>
       ))}
@@ -40,8 +40,8 @@ const SkillLevel = ({ title, text, level }) => {
           style={{ backgroundImage }}
         ></LevelBar>
       )}
-      <div className="col-md-12 left ">
-        <p className="pt-2 text-secondary">{text}</p>
+      <div className="col-md-12 left" style={{ backgroundColor: "white" }}>
+        <p className="pt-1 text-secondary">{text}</p>
       </div>
     </div>
   );
@@ -54,7 +54,7 @@ const LevelBar = styled.div`
 
 const components = {
   Timeline,
-  SkillLevel
+  SkillLevel,
 };
 
 const Curriculum = ({ sections }) => (

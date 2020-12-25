@@ -21,7 +21,7 @@ const Section = ({
   text,
   theme = {},
   links = [],
-  carousel = []
+  carousel = [],
 }) => (
   <SectionStyled
     className="container-fluid game game-container flex-wrap"
@@ -36,7 +36,7 @@ const Section = ({
       >
         <ol
           className={classNames("carousel-indicators", {
-            "icon-dark": theme.carousel === "dark"
+            "icon-dark": theme.carousel === "dark",
           })}
         >
           {carousel.map((_, index) => (
@@ -60,7 +60,7 @@ const Section = ({
         </div>
         <a
           className={classNames("carousel-control-prev", {
-            "icon-dark": theme.carousel === "dark"
+            "icon-dark": theme.carousel === "dark",
           })}
           href={`#${id}`}
           role="button"
@@ -74,7 +74,7 @@ const Section = ({
         </a>
         <a
           className={classNames("carousel-control-next", {
-            "icon-dark": theme.carousel === "dark"
+            "icon-dark": theme.carousel === "dark",
           })}
           href={`#${id}`}
           role="button"
@@ -96,7 +96,7 @@ const Section = ({
       <h1 className="text-center">{title}</h1>
       <div
         dangerouslySetInnerHTML={{
-          __html: text
+          __html: text,
         }}
       ></div>
       {links.map(({ text, href, target }, index) => (
@@ -132,7 +132,7 @@ const SectionStyled = styled.section`
   }
 
   @media (min-width: 960px) {
-    min-height: 700px;
+    min-height: calc(100vh - 75px);
   }
   .FadeIn {
     @keyframes fadein {
