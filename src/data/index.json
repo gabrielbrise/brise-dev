@@ -10,11 +10,33 @@
         "title": "work experience",
         "list": [
           {
-            "date": { "start": "jun 2019", "end": "now" },
-            "title": "Junior Developer",
+            "date": {
+              "start": "nov 2020",
+              "end": "now"
+            },
+            "title": "Fullstack Developer",
+            "id": "socialbakers",
+            "subtitle": "Socialbakers",
+            "info": [
+              ""
+            ],
+            "description": [
+              "- Javascript, HTML, CSS",
+              "- Typescript",
+              "- ReactJS, NODE.js"
+            ]
+          },
+          {
+            "date": {
+              "start": "jun 2019",
+              "end": "nov 2020"
+            },
+            "title": "Web Developer",
             "id": "mesalva",
             "subtitle": "Me Salva!",
-            "info": [""],
+            "info": [
+              ""
+            ],
             "description": [
               "- Javascript, HTML, CSS",
               "- Typescript",
@@ -23,11 +45,16 @@
             ]
           },
           {
-            "date": { "start": "may 2017", "end": "nov 2017" },
+            "date": {
+              "start": "may 2017",
+              "end": "nov 2017"
+            },
             "title": "Architecture Internship",
             "id": "room",
             "subtitle": "roo-m arquitetura",
-            "info": ["Responsable Architect: Rodrigo Milani"],
+            "info": [
+              "Responsable Architect: Rodrigo Milani"
+            ],
             "description": [
               "- CNC furniture plans",
               "- Architectural visualization with V-Ray for virtual reality (Google Cardboard / VR BOX)",
@@ -35,7 +62,10 @@
             ]
           },
           {
-            "date": { "start": "jun 2013", "end": "aug 2014" },
+            "date": {
+              "start": "jun 2013",
+              "end": "aug 2014"
+            },
             "title": "Scholarship for Cientific Research",
             "id": "cnpq",
             "subtitle": "Universidade Federal do Rio Grande do Sul",
@@ -50,11 +80,17 @@
             ]
           },
           {
-            "date": { "start": "sep 2012", "end": "feb 2013" },
+            "date": {
+              "start": "sep 2012",
+              "end": "feb 2013"
+            },
             "id": "suinfra",
             "title": "Scholarship at the Architectural Projects Division",
             "subtitle": "Universidade Federal do Rio Grande do Sul",
-            "info": ["Infrastructure Superintendence", "Campus do Vale"],
+            "info": [
+              "Infrastructure Superintendence",
+              "Campus do Vale"
+            ],
             "description": [
               "- Design review according to technical standards",
               "- Technical survey",
@@ -68,23 +104,34 @@
         "title": "education",
         "list": [
           {
-            "date": { "start": "dez 2019", "end": "atualmente" },
+            "date": {
+              "start": "dez 2019",
+              "end": "atualmente"
+            },
             "title": "Software Architecture Post-Graduation",
             "id": "unyleya",
             "subtitle": "Unyleya Faculty"
           },
           {
-            "date": { "start": "2012", "end": "2018" },
+            "date": {
+              "start": "2012",
+              "end": "2018"
+            },
             "title": "Architecture and Urbanism Bachelor",
             "id": "ufrgs",
             "subtitle": "Universidade Federal do Rio Grande do Sul"
           },
           {
-            "date": { "start": "2014", "end": "2015" },
+            "date": {
+              "start": "2014",
+              "end": "2015"
+            },
             "title": "Urban Design, Planning and Society",
             "id": "groningen",
             "subtitle": "Rijksuniversiteit Groningen",
-            "description": ["Science Without Borders 1 year exchange programme"]
+            "description": [
+              "Science Without Borders 1 year exchange programme"
+            ]
           }
         ]
       },
